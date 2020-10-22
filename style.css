@@ -33,6 +33,11 @@ h3 {
 #monky {
   height: 100%;
   width: 100%;
+  transition: 3s;
+}
+
+#monky:hover {
+  transform: scale(.01);
 }
 
 #row {
@@ -45,6 +50,11 @@ h3 {
 
 .Gulddame {
   height: 400px;
+  transition: 5s;
+}
+
+.Gulddame:hover {
+  transform: rotate(360deg);
 }
 
 #knap {
@@ -59,6 +69,7 @@ h3 {
 #knap:hover {
   transform: scale(2);
 }
+
 
 #qq {
   font-family: 'Rock Salt', cursive;
