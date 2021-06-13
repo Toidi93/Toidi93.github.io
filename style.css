@@ -1,0 +1,53 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("background.jpg");
+}
+
+/* Set default margin and padding */
+*:before,*,*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: rgb(58, 64, 64);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.navbar-title{
+  padding: 1rem 0;
+  color: white;
+}
+
+.container{
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.resume-box{
+padding: 1rem;
+}
+
+.resume-box-title{
+  font-size: 2rem;
+ text-decoration: underline;
+  padding: 1.5rem 0;
+}
+
+.resume-box-p{
+  margin: 0.5rem 0 ;
+}
+
+.resume-img{
+margin: 3rem;
+border-radius: 50%;
+height: 15rem;
+}
